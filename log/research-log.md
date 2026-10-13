@@ -15,3 +15,16 @@
   Need to check later whether temperature itself affects PM2.5.
 - Confused about: nothing yet
 - Next: get OpenAQ API key, read Sarwar et al. paper
+## 13 Oct 2026 (night): PM2.5 download
+- Got OpenAQ API key, stored it in Colab Secrets (not on GitHub)
+- Found the US consulate monitor is split into two OpenAQ records:
+  sensor 4680 (11 Mar–9 Nov 2016, StateAir) and sensor 24434 (10 Nov 2016–24 Mar 2025, AirNow)
+- First attempt used only sensor 4680: just 5,656 hours, winter missing, chart looked wrong
+- Second attempt combined both but year counts were suspiciously round (6,000 / 7,000);
+  the download was silently skipping pages when the server rate-limited it
+- Fixed by downloading month by month with automatic retries
+- Final dataset: 72,035 hourly readings, 11 Mar 2016 to 24 Mar 2025 (about 91% of all hours)
+- First look: January is worst (~200 µg/m³), July cleanest (~35)
+- Also found two low-cost AirGradient sensors in Baridhara with 2026 data (15462183, 15677432),
+  possible second check for the Savar kiln test
+- Next: read Sarwar et al. paper, start cleaning the data
