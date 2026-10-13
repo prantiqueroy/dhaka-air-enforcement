@@ -28,3 +28,4 @@
 - Also found two low-cost AirGradient sensors in Baridhara with 2026 data (15462183, 15677432),
   possible second check for the Savar kiln test
 - Next: read Sarwar et al. paper, start cleaning the data
+- Saved both datasets to the data folder and wrote a data README describing sources, dates and columns
