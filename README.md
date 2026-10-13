@@ -1,2 +1,11 @@
-# dhaka-air-enforcement
-Do enforcement actions lower Dhaka's PM2.5? An event study using public data, 2016–2025
+# Do Crackdowns Clear the Air?
+
+**Question:** When the government or courts crack down on air pollution in Dhaka, does PM2.5 actually fall, and for how long?
+
+**Data:** Hourly PM2.5 from the US consulate monitor in Dhaka (2016–2025), hourly weather from Open-Meteo, and a hand-built timeline of enforcement actions.
+
+**Method:** Remove the effect of weather from the pollution data, then compare pollution before and after each enforcement action.
+
+**Status:** Started October 2026. Work in progress.
+
+**Author:** Prantique Roy, Dhaka
