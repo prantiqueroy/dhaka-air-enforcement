@@ -21,3 +21,15 @@ Hourly weather at 23.80°N, 90.42°E (Baridhara, Dhaka).
 
 ## Code
 Download code is in notebooks/01_weather_download.ipynb and notebooks/02_pm25_download.ipynb
+
+## dhaka_hourly_clean.csv / dhaka_daily_clean.csv
+Cleaned PM2.5 merged with weather. Made by notebooks/03_clean_and_merge.ipynb.
+Cleaning rules:
+1. Removed negative values and values of 985 or above (985 is the monitor's
+   error code): 43 hours
+2. Removed "stuck" readings (same value 8+ hours in a row): 0 hours
+3. Removed isolated spikes (above 500 and more than 3x the surrounding
+   24-hour median): 25 hours
+Result: 71,967 of 72,035 hours kept.
+Daily file: daily means only for days with 18+ valid hours (rule from
+Sarwar et al., 2023): ____ days.
