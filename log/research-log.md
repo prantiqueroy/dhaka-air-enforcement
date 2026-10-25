@@ -33,6 +33,6 @@
 - Read Sarwar et al. (2023) and wrote summary (notes/01_sarwar_2023_summary.md)
 - Key takeaway: about half of Dhaka's PM2.5 may come from outside Bangladesh,
   so any crackdown effect will be small and needs careful comparison
-  - Read Sarkar & Khan (2021) and wrote summary (notes/02_sarkar_khan_2021_summary.md)
+- Read Sarkar & Khan (2021) and wrote summary (notes/02_sarkar_khan_2021_summary.md)
 - Key takeaway: even the full COVID lockdown only cut PM2.5 ~11% and it was not
   statistically clear, so crackdown effects will be small and weather control is essential
