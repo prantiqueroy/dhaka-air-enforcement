@@ -47,3 +47,8 @@
   level, matching their finding.
 - 2016–2018 show fewer days above 65 than the paper, probably because of missing
   winter data (to confirm with the coverage check)
+- Coverage check: 2016–2018 show fewer days above 65 because of missing winter data
+  (Jan–Feb 2016 no data; Nov 2017 – Mar 2018 almost no data). Not a cleaning error.
+- Events between Nov 2017 and Mar 2018 cannot be tested (no before/after data).
+- Sep–Oct 2018 data exists in my file although Sarwar et al. reported it missing;
+  same period as the 985 error codes, so treat with caution.
