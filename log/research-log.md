@@ -36,3 +36,5 @@
 - Read Sarkar & Khan (2021) and wrote summary (notes/02_sarkar_khan_2021_summary.md)
 - Key takeaway: even the full COVID lockdown only cut PM2.5 ~11% and it was not
   statistically clear, so crackdown effects will be small and weather control is essential
+- Cleaning check: found monthly average near 1,000 µg/m³ in Sep 2018 (impossible).
+  Likely instrument error codes (985+) in the raw data. Added a rule to remove them.
