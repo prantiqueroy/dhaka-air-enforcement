@@ -36,5 +36,14 @@
 - Read Sarkar & Khan (2021) and wrote summary (notes/02_sarkar_khan_2021_summary.md)
 - Key takeaway: even the full COVID lockdown only cut PM2.5 ~11% and it was not
   statistically clear, so crackdown effects will be small and weather control is essential
-- Cleaning check: found monthly average near 1,000 µg/m³ in Sep 2018 (impossible).
-  Likely instrument error codes (985+) in the raw data. Added a rule to remove them.
+- Wrote one-page proposal (notes/00_proposal.md) and made a PDF version for mentor emails
+- Cleaned the PM2.5 data (notebooks/03_clean_and_merge.ipynb)
+- Found Sep 2018 monthly average near 1,000 µg/m³ (impossible). Top raw values were
+  exactly 985, the monitor's error code. Removed 43 such hours.
+- Added a spike rule (>500 and >3x the 24-hour median): removed 25 hours, all in
+  winter/spring. Final: 71,967 of 72,035 hours kept.
+- Check against Sarwar et al. (2023): my days above 65 for 2019–2021 (171, 147, 172)
+  match their range of 144–188. Winter night PM2.5 is about twice the afternoon
+  level, matching their finding.
+- 2016–2018 show fewer days above 65 than the paper, probably because of missing
+  winter data (to confirm with the coverage check)
