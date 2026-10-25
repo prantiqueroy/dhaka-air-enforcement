@@ -29,3 +29,7 @@
   possible second check for the Savar kiln test
 - Next: read Sarwar et al. paper, start cleaning the data
 - Saved both datasets to the data folder and wrote a data README describing sources, dates and columns
+## 25 Oct 2026
+- Read Sarwar et al. (2023) and wrote summary (notes/01_sarwar_2023_summary.md)
+- Key takeaway: about half of Dhaka's PM2.5 may come from outside Bangladesh,
+  so any crackdown effect will be small and needs careful comparison
