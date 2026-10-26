@@ -52,3 +52,10 @@
 - Events between Nov 2017 and Mar 2018 cannot be tested (no before/after data).
 - Sep–Oct 2018 data exists in my file although Sarwar et al. reported it missing;
   same period as the 985 error codes, so treat with caution.
+  ## 26 Oct 2026
+- Built enforcement timeline: 28 events (2019–2025), 14 verified with two
+  independent news sources; sources and dates compiled with AI assistance (Claude)
+- Corrected Nov 2019 kiln order date to 26 Nov (same-day Financial Express report)
+- Found that Daily Star print stories' "yesterday" means the same day as the online date
+- Added natural experiments list (COVID holiday, Eids 2016–2025) for calibration
+- Weak spots: only 2 verified physical drives; no events found for 2016–2018
