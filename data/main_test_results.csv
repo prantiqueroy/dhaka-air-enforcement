@@ -1,0 +1,11 @@
+cluster,date,events,tool,effect,first_10_days,days_21_30
+1,2019-01-28,E01,Court order,27.1,40.8,7.8
+2,2019-03-13,E02,Court order (summons),5.3,-21.1,23.3
+3,2019-05-05,E03,Court order (summons),-11.2,,-29.6
+4,2019-11-26,E04,Court order,-12.3,-13.8,-2.2
+5,2020-01-13,E08,Court order,-7.5,-10.5,-10.9
+6,2020-11-24,E10,Court order,8.0,-1.6,11.7
+7,2021-01-11,E11+E12,Demolition,9.0,29.6,-12.8
+8,2022-03-01,E14,Court order,31.2,31.2,
+9,2022-04-20,E15,Court order (summons),33.2,36.3,29.2
+10,2025-01-02,E24+E25,Mobile court,-10.2,-19.1,-2.8
