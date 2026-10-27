@@ -8,4 +8,6 @@
 
 **Status:** Started October 2026. Work in progress.
 
+**Pre-registration:** https://osf.io/6bsek (registered 27 Oct 2026, before the main analysis)
+
 **Author:** Prantique Roy, Dhaka
