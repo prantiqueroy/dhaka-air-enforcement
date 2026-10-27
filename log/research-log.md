@@ -59,3 +59,13 @@
 - Found that Daily Star print stories' "yesterday" means the same day as the online date
 - Added natural experiments list (COVID holiday, Eids 2016–2025) for calibration
 - Weak spots: only 2 verified physical drives; no events found for 2016–2018
+  ## 27 Oct 2026
+- Found 5,288 blank PM2.5 hours that the earlier cleaning counted as real readings.
+  Real data: 66,679 hours (~84%); 2,478 days with 18+ real hours.
+- Built weather model (notebooks/04_weather_model.ipynb): gradient boosting on daily
+  weather + season, tested on unseen years. R² = 0.81.
+- Weather-adjusted PM2.5: 2020 lowest (−10%); 2021–2023 above expected (+11% to +24%).
+- Feb–Mar 2023 data gap: E18 and E19 have no "after" data, so 12 verified events are testable.
+- COVID check: weather-adjusted PM2.5 fell ~20% below expected in early March 2020,
+  before the official holiday (26 Mar), and reached about −40% in its first weeks.
+  Effects can start before the official date.
