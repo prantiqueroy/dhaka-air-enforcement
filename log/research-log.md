@@ -63,7 +63,7 @@
 - Found 5,288 blank PM2.5 hours that the earlier cleaning counted as real readings.
   Real data: 66,679 hours (~84%); 2,478 days with 18+ real hours.
 - Built weather model (notebooks/04_weather_model.ipynb): gradient boosting on daily
-  weather + season, tested on unseen years. R² = 0.81.
+  weather + season, tested on unseen years. R² = 0.80.
 - Weather-adjusted PM2.5: 2020 lowest (−10%); 2021–2023 above expected (+11% to +24%).
 - Feb–Mar 2023 data gap: E18 and E19 have no "after" data, so 12 verified events are testable.
 - COVID check: weather-adjusted PM2.5 fell ~20% below expected in early March 2020,
@@ -77,3 +77,11 @@
   the first 10 days (+8.0%) and mostly gone by days 21–30 (+1.5%). Not predicted.
 - Deviation from plan: for 10- and 15-day windows, minimum data = half the window.
   Main test unaffected.
+- Calibration (notebooks/05_calibration.ipynb): 13 Eids averaged −43.5% weather-adjusted
+  PM2.5 vs normal days; 0 of 5,000 random-date sets came close. COVID holiday: −19.7%
+  (Sarkar & Khan 2021 found −11% without weather adjustment). Smallest detectable
+  average effect across 12 events: about 13%.
+- Confirmed Bangladesh Eid ul-Fitr dates for 2016, 2018, 2024 (one day after Saudi).
+- Robustness (all pre-registered): without summonses +6.5% (7 clusters); E11 dated
+  4 Jan 2021 +8.2%; 15-day windows +10.5% (9 clusters); 60-day windows +9.3%.
+  All positive: no version shows cleaner air after crackdowns.
