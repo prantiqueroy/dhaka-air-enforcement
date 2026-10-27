@@ -69,3 +69,11 @@
 - COVID check: weather-adjusted PM2.5 fell ~20% below expected in early March 2020,
   before the official holiday (26 Mar), and reached about −40% in its first weeks.
   Effects can start before the official date.
+- Pre-registered the main test on OSF: https://osf.io/6bsek
+- Ran main test (notebooks/06_main_test.ipynb), 10 clusters: weather-adjusted PM2.5
+  was +7.3% higher in the 30 days after enforcement actions than before.
+  H1 (air cleaner) not supported, p = 0.97.
+- Exploratory: only 3% of random date sets were as high; the rise is concentrated in
+  the first 10 days (+8.0%) and mostly gone by days 21–30 (+1.5%). Not predicted.
+- Deviation from plan: for 10- and 15-day windows, minimum data = half the window.
+  Main test unaffected.
