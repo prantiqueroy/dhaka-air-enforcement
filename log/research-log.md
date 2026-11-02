@@ -85,3 +85,10 @@
 - Robustness (all pre-registered): without summonses +6.5% (7 clusters); E11 dated
   4 Jan 2021 +8.2%; 15-day windows +10.5% (9 clusters); 60-day windows +9.3%.
   All positive: no version shows cleaner air after crackdowns.
+## 2 Nov 2026
+- Exploratory why-checks (notebooks/07_why_checks.ipynb): no pre-trend before actions;
+  actions came after slightly cleaner-than-usual months (+2.8% vs typical +9.5%) and
+  air returned to normal after (+10.1%). The +7.3% looks like a return to normal,
+  not crackdowns making air worse. Season does not explain it.
+- Collected evidence on non-compliance, kiln stay orders, DoE capacity
+  (notes/04_why_evidence.md). Wrote my view: outside pollution and kiln-only focus.
