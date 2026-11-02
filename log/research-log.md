@@ -92,3 +92,6 @@
   not crackdowns making air worse. Season does not explain it.
 - Collected evidence on non-compliance, kiln stay orders, DoE capacity
   (notes/04_why_evidence.md). Wrote my view: outside pollution and kiln-only focus.
+- Wrote paper outline (notes/05_paper_outline.md): JEI format, ~3,000–3,500 words,
+  4 figures and 2 tables mapped to notebooks. Writing plan 3–20 Nov, starting with
+  Materials and Methods.
