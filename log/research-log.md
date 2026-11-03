@@ -95,3 +95,11 @@
 - Wrote paper outline (notes/05_paper_outline.md): JEI format, ~3,000–3,500 words,
   4 figures and 2 tables mapped to notebooks. Writing plan 3–20 Nov, starting with
   Materials and Methods.
+- Drafted the full paper (Abstract, Introduction, Results, Discussion, Materials and Methods, 23 references). Made 5 figures instead of the planned 4: added a study design diagram (Figure 1). Paper sent for mentor review.
+- Found a mentor for the project.
+
+## 3 Nov 2026
+
+- Uploaded the paper figures and the code that remakes them (figures/). Checked: the code gives the same numbers as the notebooks.
+- Fixed data/natural_experiments.csv: Eid ul-Fitr 2016, 2018 and 2024 now use the Bangladesh dates (7 Jul 2016, 16 Jun 2018, 11 Apr 2024). The analysis already used these dates, so no results change.
+- Updated README with paper status and a guide to the folders.
